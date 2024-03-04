@@ -18,7 +18,7 @@ class PeopleFactory extends Factory
     {
         return [
             'name' => $this->faker->name(),
-            'city_id' => $this->faker->numberBetween(1,12),
+            'city_id' => $this->faker->numberBetween(1,8),
         ];
     }
 }
